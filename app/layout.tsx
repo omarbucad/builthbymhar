@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Built by Mhar",
     images: [
       {
-        url: "/profile.png",
+        url: "/logo.png",
         width: 1200,
         height: 630,
       },
@@ -44,6 +44,15 @@ export const metadata: Metadata = {
     type: "website",
   },
 
+
+  alternates: {
+    canonical: "https://builtbymhar.tech",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 
 
 };
