@@ -3,27 +3,50 @@ import "./globals.css";
 
 
 
-export const metadata: Metadata = {
 
+export const metadata: Metadata = {
   title: "Romar Bucad | Senior Full-Stack Developer",
   description:
-      "Freelance web developer specializing in Laravel, WordPress, Tailwind CSS, and custom web applications. Helping businesses build fast, modern, responsive websites.",
+      "Senior Full-Stack Developer from the Philippines specializing in Laravel, React, Next.js, WordPress, Tailwind CSS, and custom web applications. Building fast, scalable, and modern websites for businesses.",
+
   keywords: [
     "Romar Bucad",
-    "Full Stack Developer",
+    "Built by Mhar",
     "Senior Full-Stack Developer",
+    "Full Stack Developer Philippines",
+    "Freelance Web Developer Philippines",
     "Laravel Developer",
     "React Developer",
-    "Angular Developer",
-    "PHP Developer",
     "Next.js Developer",
-    "Freelance Developer Philippines",
-      "Freelance Web Developer in the Philippines | Laravel, WordPress & React - Built by Mhar"
+    "WordPress Developer",
+    "PHP Developer",
+    "Tailwind CSS Developer",
+    "Web Application Developer",
+    "Custom Website Development",
+    "Remote Full Stack Developer",
   ],
-  icons: {
-    icon: "/favicon.png",
-  }
+
+
+  openGraph: {
+    title: "Romar Bucad | Senior Full-Stack Developer",
+    description:
+        "Senior Full-Stack Developer specializing in Laravel, React, Next.js, WordPress, and custom web applications.",
+    url: "https://builtbymhar.tech",
+    siteName: "Built by Mhar",
+    images: [
+      {
+        url: "/profile.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+
+
+
 };
+
 
 export default function RootLayout({
   children,
@@ -33,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
     <body className="bg-white text-gray-900">
-      <div className="max-w-2xl mx-auto px-8 py-20">{children}</div>
+      <main className="max-w-2xl mx-auto px-8 py-20">{children}</main>
     </body>
     </html>
 );
