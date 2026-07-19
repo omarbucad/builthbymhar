@@ -5,6 +5,7 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://builtbymhar.tech"),
   title: "Romar Bucad | Senior Full-Stack Developer",
   description:
       "Senior Full-Stack Developer from the Philippines specializing in Laravel, React, Next.js, WordPress, Tailwind CSS, and custom web applications. Building fast, scalable, and modern websites for businesses.",
