@@ -116,7 +116,7 @@ export default function Skills() {
                     </div>
 
                     <div className="text-gray-500">
-                        VTools & Collaboration
+                        Tools & Collaboration
                     </div>
 
                     <div>
