@@ -10,7 +10,7 @@ export default function Contact() {
 
                 <div className="grid grid-cols-[110px_1fr]">
                     <div className="text-gray-500">LinkedIn</div>
-                    <a href="www.linkedin.com/in/mhar-bucad" className="hover:underline">mhar-bucad ↗</a>
+                    <a href="https://www.linkedin.com/in/mhar-bucad" className="hover:underline">mhar-bucad ↗</a>
                 </div>
 
                 <div className="grid grid-cols-[110px_1fr]">

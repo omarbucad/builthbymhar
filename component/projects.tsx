@@ -8,23 +8,23 @@ export default function Projects() {
 
             <div className="space-y-8">
 
-                <div className="grid grid-cols-[130px_1fr] gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
                     <div className="text-gray-500">2018 - present</div>
                     <div>
                         <h3 className="font-medium">
-                            <a href={"https://airlinemetrics.com/"}>Airlinemetrics ↗</a>
+                            <a href={"https://airlinemetrics.com/"}>Airlinemetrics </a>
                         </h3>
                     </div>
                 </div>
 
-                <div className="grid grid-cols-[130px_1fr] gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
                     <div className="text-gray-500">2020</div>
                     <div>
                         <h3 className="font-medium">Plant-based cookware ↗</h3>
                     </div>
                 </div>
 
-                <div className="grid grid-cols-[130px_1fr] gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
                     <div className="text-gray-500">2019</div>
                     <div>
                         <h3 className="font-medium">Interactive art installation ↗</h3>

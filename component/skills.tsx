@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Skills() {
     return <>
@@ -12,7 +11,7 @@ export default function Skills() {
 
 
 
-                <div className="grid grid-cols-[180px_1fr] gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
 
                     <div className="text-gray-500">
                         Backend:

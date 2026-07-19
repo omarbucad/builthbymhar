@@ -6,6 +6,7 @@ import Projects from "@/component/projects";
 import Education from "@/component/education";
 import Contact from "@/component/contact";
 import Skills from "@/component/skills";
+import Cv from "@/component/cv";
 
 export default function Home() {
   return <>
@@ -16,5 +17,6 @@ export default function Home() {
     <Skills />
     <Education />
     <Contact />
+    <Cv />
   </>;
 }

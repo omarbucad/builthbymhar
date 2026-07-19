@@ -10,16 +10,16 @@ export default function Education() {
 
 
 
-                <div className="grid grid-cols-[180px_1fr] gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
 
                     <div className="text-gray-500">
-                        2010 — 2014
+                        June 2010 — Apr 2014
                     </div>
 
                     <div>
 
                         <h3 className="font-medium">
-                            Bachelor's in Computer Science at System Plus College Foundation
+                            Bachelor&#39;s in Computer Science at System Plus College Foundation
                         </h3>
 
                         <p className="text-gray-500 mt-1">

@@ -8,7 +8,7 @@ export default function Experience() {
 
             <div className="space-y-12">
 
-                <div className="grid grid-cols-[180px_1fr] gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
 
                     <div className="text-gray-500">
                         Apr 2026 — Present
@@ -28,7 +28,7 @@ export default function Experience() {
 
                 </div>
 
-                <div className="grid grid-cols-[180px_1fr] gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
 
                     <div className="text-gray-500">
                         Apr 2026 — Present
@@ -48,7 +48,7 @@ export default function Experience() {
 
                 </div>
 
-                <div className="grid grid-cols-[180px_1fr] gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
 
                     <div className="text-gray-500">
                         June 2018 — Mar 2026
@@ -68,7 +68,7 @@ export default function Experience() {
 
                         {/*</div>*/}
                         <h3 className="font-medium">
-                            Software Developer at Ezerec PH ↗
+                            Software Developer at Ezerec PH
                         </h3>
 
                         <p className="text-gray-500 mt-1">
@@ -81,7 +81,7 @@ export default function Experience() {
 
 
 
-                <div className="grid grid-cols-[180px_1fr] gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
 
                     <div className="text-gray-500">
                         Oct 2014 — June 2018
@@ -90,7 +90,7 @@ export default function Experience() {
                     <div>
 
                         <h3 className="font-medium">
-                            PHP Developer at Trackerteer Web Developer Corp ↗
+                            PHP Developer at Trackerteer Web Developer Corp
                         </h3>
 
                         <p className="text-gray-500 mt-1">
