@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Built by Mhar",
     images: [
       {
-        url: "/logo.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
       },
