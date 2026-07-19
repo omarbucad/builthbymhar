@@ -9,9 +9,11 @@ export default function Projects() {
             <div className="space-y-8">
 
                 <div className="grid grid-cols-[130px_1fr] gap-6">
-                    <div className="text-gray-500">2021</div>
+                    <div className="text-gray-500">2018 - present</div>
                     <div>
-                        <h3 className="font-medium">Nature walks ↗</h3>
+                        <h3 className="font-medium">
+                            <a href={"https://airlinemetrics.com/"}>Airlinemetrics ↗</a>
+                        </h3>
                     </div>
                 </div>
 

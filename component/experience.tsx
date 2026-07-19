@@ -17,11 +17,11 @@ export default function Experience() {
                     <div>
 
                         <h3 className="font-medium">
-                            Full-Stack Developer (Freelance) ↗
+                            Full-Stack Developer (Freelance)
                         </h3>
 
                         <p className="text-gray-500 mt-1">
-                            BuiltByMhar.tech
+                            Remote, Philippines
                         </p>
 
                     </div>
@@ -37,11 +37,11 @@ export default function Experience() {
                     <div>
 
                         <h3 className="font-medium">
-                            Software Developer at Airlinemetrics ↗
+                            Software Developer at Airlinemetrics
                         </h3>
 
                         <p className="text-gray-500 mt-1">
-                            Remote
+                            Remote, Philippines
                         </p>
 
                     </div>

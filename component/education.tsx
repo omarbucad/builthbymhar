@@ -10,7 +10,7 @@ export default function Education() {
 
 
 
-                <div className="grid grid-cols-[130px_1fr] gap-6">
+                <div className="grid grid-cols-[180px_1fr] gap-6">
 
                     <div className="text-gray-500">
                         2010 — 2014

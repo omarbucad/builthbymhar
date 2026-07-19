@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
   title: "Romar Bucad | Senior Full-Stack Developer",
   description:
-      "Experienced Full-Stack Developer specializing in Laravel, React, Angular, PHP, TypeScript, and modern web application development.",
+      "Freelance web developer specializing in Laravel, WordPress, Tailwind CSS, and custom web applications. Helping businesses build fast, modern, responsive websites.",
   keywords: [
     "Romar Bucad",
     "Full Stack Developer",
@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     "PHP Developer",
     "Next.js Developer",
     "Freelance Developer Philippines",
+      "Freelance Web Developer in the Philippines | Laravel, WordPress & React - Built by Mhar"
   ],
   icons: {
     icon: "/favicon.png",

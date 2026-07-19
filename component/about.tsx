@@ -8,9 +8,20 @@ export default function About() {
             </h2>
 
             <p className="leading-8 text-gray-700">
-                I'm a Full Stack Developer who enjoys building useful, reliable software and solving real-world problems with code. Over the years, I've worked with Laravel, React, Angular, and other modern web technologies to develop new features, improve performance, and modernize existing applications. I like working across the entire stack, from designing APIs and databases to creating smooth user experiences on the front end. I also enjoy collaborating with teams, sharing knowledge, and finding simple solutions to complex problems.
+                Hey, I'm a Full Stack Developer who loves turning ideas into working applications. I work with technologies like Laravel, React, Angular, and whatever tools get the job done best.
+
+            </p>
+
+            <p className="leading-8 text-gray-700">
+
+                Outside of tech, I'm into gaming and anime, so I'm no stranger to spending hours figuring out how things work, learning new mechanics, and chasing the next challenge. That same curiosity carries over into development, where I enjoy building features, solving tricky bugs, and creating experiences that people actually enjoy using.
+
+            </p>
+
+            <p className="leading-8 text-gray-700">
 
 
+                I believe good software should be reliable, easy to use, and built with purpose and I'm always looking for ways to make that happen.
             </p>
 
         </section>
