@@ -1,149 +1,69 @@
+const skills = [
+    {
+        category: "Backend",
+        items: "PHP, Laravel, CodeIgniter, Java, Python",
+    },
+    {
+        category: "Frontend",
+        items: "React, Angular, Tailwind CSS, Bootstrap",
+    },
+    {
+        category: "AI & Integrations",
+        items: "OpenAI API, Agentic/Automation Systems",
+    },
+    {
+        category: "CMS",
+        items: "WordPress, Shopify",
+    },
+    {
+        category: "Databases & Caching",
+        items: "MySQL, PostgreSQL, MongoDB, Redis",
+    },
+    {
+        category: "Cloud & Storage",
+        items: "AWS S3",
+    },
+    {
+        category: "DevOps & Deployment",
+        items: "CI/CD, Docker, Git",
+    },
+    {
+        category: "Version Control",
+        items: "GitHub, Bitbucket",
+    },
+    {
+        category: "Tools & Collaboration",
+        items: "Jira, Confluence",
+    },
+    {
+        category: "Queue & Processing",
+        items: "Laravel Horizon",
+    },
+];
 
 export default function Skills() {
-    return <>
+    return (
         <section className="mt-20">
-
-            <h2 className="font-semibold text-lg mb-8">
+            <h2 className="mb-8 text-lg font-semibold">
                 Skills
             </h2>
 
-            <div className="space-y-10">
+            <div className="space-y-6">
+                {skills.map((skill) => (
+                    <div
+                        key={skill.category}
+                        className="grid grid-cols-1 gap-2 md:grid-cols-[180px_1fr] md:gap-6"
+                    >
+                        <div className="text-gray-500">
+                            {skill.category}
+                        </div>
 
-
-
-                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
-
-                    <div className="text-gray-500">
-                        Backend:
+                        <div className="font-medium">
+                            {skill.items}
+                        </div>
                     </div>
-
-                    <div>
-
-                        <h3 className="font-medium">
-                            PHP (Laravel, CodeIgniter), Java, Python , NodeJs
-                        </h3>
-
-                    </div>
-
-                    <div className="text-gray-500">
-                        Frontend:
-                    </div>
-
-                    <div>
-
-                        <h3 className="font-medium">
-                            React.js, Angular, Tailwind CSS, Bootstrap , Next.js
-                        </h3>
-
-                    </div>
-
-                    <div className="text-gray-500">
-                        AI & Integrations:
-                    </div>
-
-                    <div>
-
-                        <h3 className="font-medium">
-                            OpenAI API, Agentic/Automation Systems
-                        </h3>
-
-                    </div>
-
-
-                    <div className="text-gray-500">
-                        CMS Platforms:
-                    </div>
-
-                    <div>
-
-                        <h3 className="font-medium">
-                            WordPress, Shopify
-                        </h3>
-
-                    </div>
-
-
-                    <div className="text-gray-500">
-                        Databases & Caching:
-                    </div>
-
-                    <div>
-
-                        <h3 className="font-medium">
-                            MySQL, PostgreSQL, MongoDB, Redis
-                        </h3>
-
-                    </div>
-
-
-                    <div className="text-gray-500">
-                        Cloud & Storage:
-                    </div>
-
-                    <div>
-
-                        <h3 className="font-medium">
-                            AWS S3
-                        </h3>
-
-                    </div>
-
-
-                    <div className="text-gray-500">
-                        DevOps & Deployment:
-                    </div>
-
-                    <div>
-
-                        <h3 className="font-medium">
-                            CI/CD, Docker, Git
-                        </h3>
-
-                    </div>
-
-
-                    <div className="text-gray-500">
-                        Version Control Platforms:
-                    </div>
-
-                    <div>
-
-                        <h3 className="font-medium">
-                            GitHub, Bitbucket
-                        </h3>
-
-                    </div>
-
-                    <div className="text-gray-500">
-                        Tools & Collaboration
-                    </div>
-
-                    <div>
-
-                        <h3 className="font-medium">
-                            Jira, Confluence
-                        </h3>
-
-                    </div>
-
-                    <div className="text-gray-500">
-                        Queue & Processing:
-                    </div>
-
-                    <div>
-
-                        <h3 className="font-medium">
-                            Laravel Horizon
-                        </h3>
-
-                    </div>
-
-
-                </div>
-
+                ))}
             </div>
-
         </section>
-
-    </>
+    );
 }

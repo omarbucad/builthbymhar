@@ -11,13 +11,13 @@ export default function Experience() {
                 <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
 
                     <div className="text-gray-500">
-                        Apr 2026 — Present
+                        July 2026 — Present
                     </div>
 
                     <div>
 
                         <h3 className="font-medium">
-                            Full-Stack Developer (Freelance)
+                            Founder & Full Stack Developer — AnongSabi
                         </h3>
 
                         <p className="text-gray-500 mt-1">
@@ -28,25 +28,25 @@ export default function Experience() {
 
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
+                {/*<div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">*/}
 
-                    <div className="text-gray-500">
-                        Apr 2026 — Present
-                    </div>
+                {/*    <div className="text-gray-500">*/}
+                {/*        Apr 2026 — Present*/}
+                {/*    </div>*/}
 
-                    <div>
+                {/*    <div>*/}
 
-                        <h3 className="font-medium">
-                            Software Developer at Airlinemetrics
-                        </h3>
+                {/*        <h3 className="font-medium">*/}
+                {/*            Software Developer at Airlinemetrics*/}
+                {/*        </h3>*/}
 
-                        <p className="text-gray-500 mt-1">
-                            Remote, Philippines
-                        </p>
+                {/*        <p className="text-gray-500 mt-1">*/}
+                {/*            Remote, Philippines*/}
+                {/*        </p>*/}
 
-                    </div>
+                {/*    </div>*/}
 
-                </div>
+                {/*</div>*/}
 
                 <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-6">
 
@@ -68,7 +68,7 @@ export default function Experience() {
 
                         {/*</div>*/}
                         <h3 className="font-medium">
-                            Software Developer at Ezerec PH
+                            Full Stack Developer — Airlinemetrics
                         </h3>
 
                         <p className="text-gray-500 mt-1">
@@ -90,7 +90,7 @@ export default function Experience() {
                     <div>
 
                         <h3 className="font-medium">
-                            PHP Developer at Trackerteer Web Developer Corp
+                            PHP Developer — Trackerteer Web Developer Corp
                         </h3>
 
                         <p className="text-gray-500 mt-1">

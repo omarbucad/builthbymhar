@@ -1,60 +1,79 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-
-
-
 export const metadata: Metadata = {
   metadataBase: new URL("https://builtbymhar.tech"),
-  title: "Romar Bucad | Senior Full-Stack Developer",
+
+  title: {
+    default: "Romar Bucad | Full Stack Developer",
+    template: "%s | Romar Bucad",
+  },
+
   description:
-      "Senior Full-Stack Developer from the Philippines specializing in Laravel, React, Next.js, WordPress, Tailwind CSS, and custom web applications. Building fast, scalable, and modern websites for businesses.",
+      "Romar Bucad is a Full Stack Developer from the Philippines with 10+ years of experience building web applications with Laravel, React, Angular, PHP, and modern web technologies.",
 
   keywords: [
     "Romar Bucad",
-    "Built by Mhar",
-    "Senior Full-Stack Developer",
+    "Mhar Bucad",
+    "BuiltByMhar",
+    "Full Stack Developer",
     "Full Stack Developer Philippines",
-    "Freelance Web Developer Philippines",
     "Laravel Developer",
-    "React Developer",
-    "Next.js Developer",
-    "WordPress Developer",
     "PHP Developer",
-    "Tailwind CSS Developer",
+    "React Developer",
+    "Angular Developer",
     "Web Application Developer",
-    "Custom Website Development",
-    "Remote Full Stack Developer",
+    "Laravel React Developer",
+    "Remote Full Stack Developer Philippines",
   ],
 
+  authors: [
+    {
+      name: "Romar Bucad",
+      url: "https://builtbymhar.tech",
+    },
+  ],
+
+  creator: "Romar Bucad",
+
+  alternates: {
+    canonical: "/",
+  },
 
   openGraph: {
-    title: "Romar Bucad | Senior Full-Stack Developer",
+    title: "Romar Bucad | Full Stack Developer",
     description:
-        "Senior Full-Stack Developer specializing in Laravel, React, Next.js, WordPress, and custom web applications.",
-    url: "https://builtbymhar.tech",
-    siteName: "Built by Mhar",
+        "Full Stack Developer with 10+ years of experience building and improving web applications using Laravel, React, Angular, PHP, and modern technologies.",
+    url: "/",
+    siteName: "BuiltByMhar",
+    locale: "en_PH",
+    type: "website",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
+        alt: "Romar Bucad - Full Stack Developer",
       },
     ],
-    type: "website",
   },
 
-
-  alternates: {
-    canonical: "https://builtbymhar.tech",
+  twitter: {
+    card: "summary_large_image",
+    title: "Romar Bucad | Full Stack Developer",
+    description:
+        "Full Stack Developer building web applications with Laravel, React, Angular, and PHP.",
+    images: ["/og.png"],
   },
 
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
-
-
 };
 
 

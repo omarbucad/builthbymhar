@@ -1,37 +1,54 @@
-export default function Contact() {
-    return <>
-        <section className="mt-20 mb-24">
+const contacts = [
+    {
+        label: "LinkedIn",
+        href: "https://www.linkedin.com/in/mhar-bucad",
+        text: "mhar-bucad",
+    },
+    {
+        label: "GitHub",
+        href: "https://github.com/omarbucad",
+        text: "omarbucad",
+    },
+    // {
+    //     label: "YouTube",
+    //     href: "https://www.youtube.com/@mhar",
+    //     text: "@mhar",
+    // },
+    // {
+    //     label: "Facebook",
+    //     href: "https://www.facebook.com/omarbucad/",
+    //     text: "omarbucad",
+    // },
+];
 
-            <h2 className="font-semibold text-lg mb-8">
+export default function Contact() {
+    return (
+        <section className="mt-20 mb-24">
+            <h2 className="mb-8 text-lg font-semibold">
                 Contact
             </h2>
 
             <div className="space-y-5">
+                {contacts.map((contact) => (
+                    <div
+                        key={contact.label}
+                        className="grid grid-cols-[110px_1fr] gap-4"
+                    >
+                        <div className="text-gray-500">
+                            {contact.label}
+                        </div>
 
-                <div className="grid grid-cols-[110px_1fr]">
-                    <div className="text-gray-500">LinkedIn</div>
-                    <a href="https://www.linkedin.com/in/mhar-bucad" className="hover:underline">mhar-bucad ↗</a>
-                </div>
-
-                <div className="grid grid-cols-[110px_1fr]">
-                    <div className="text-gray-500">Github</div>
-                    <a href="https://github.com/omarbucad" className="hover:underline">omarbucad ↗</a>
-                </div>
-
-                <div className="grid grid-cols-[110px_1fr]">
-                    <div className="text-gray-500">Youtube</div>
-                    <a href="https://www.youtube.com/@mhar" className="hover:underline">@mhar ↗</a>
-                </div>
-
-                <div className="grid grid-cols-[110px_1fr]">
-                    <div className="text-gray-500">Facebook</div>
-                    <a href="https://www.facebook.com/omarbucad/" className="hover:underline">omarbucad ↗</a>
-                </div>
-
-
-
+                        <a
+                            href={contact.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:underline"
+                        >
+                            {contact.text} ↗
+                        </a>
+                    </div>
+                ))}
             </div>
-
         </section>
-    </>
+    );
 }
